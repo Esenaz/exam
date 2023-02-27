@@ -59,3 +59,41 @@ a:hover {
     font-weight: 400;
     margin-top: 70px;
 }
+.discription {
+    display: flex;
+    background-color: black;
+    width: 1440px;
+    height: 852px;
+}
+.text{
+    color: white;
+    margin-left: 188px;
+    margin-top: 116px;
+    font-family: "Montserrat";
+    width: 348px;
+}
+.words {
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 37px;
+}
+.pics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 116px;
+    margin-left: 157px;
+}
+.photo {
+    margin-top: 116px;
+    margin-left: 25px;
+}
+.sunset {
+    margin-bottom: 22px;
+}
+.travel {
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-family: "Montserrat";
+
+}
