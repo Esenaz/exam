@@ -160,5 +160,53 @@ input::placeholder{
 }
 .subscription:active {
     background-color: #AF2A2A;
-    ;
+}
+footer {
+    width: 1440px;
+    height: 89px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.trvl {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin-top: 28px;
+}
+.socialmedia {
+    margin-top: 33px;
+    margin-left: 40px;
+}
+.mail {
+    margin-top: 35px;
+    margin-right: 40px;
+}
+.insta {
+    margin-right: 22px;
+}
+.fb {
+    margin-right: 22px;
+}
+.insta:hover path{
+    fill: #D28888;
+    transform: scale(0.94);
+}
+.insta:active path{
+    fill: #AF2A2A
+}
+.fb:hover path{
+    fill: #D28888;
+    transform: scale(0.94);
+}
+.fb:active path{
+    fill: #AF2A2A
+}
+.twitter:hover path{
+    fill: #D28888;
+    transform: scale(0.94);
+}
+.twitter:active path{
+    fill: #AF2A2A
 }
